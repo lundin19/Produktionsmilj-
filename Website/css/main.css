@@ -48,3 +48,44 @@ body {
   color: black;
   transition: 0.3s;
   }
+
+  @media screen and (max-width: 601px) {
+
+    .header {
+        background-image: url(/Website/img/pexels-tyler-lastovich-772804.jpg);
+        width: 100%;
+        height: 120px;
+    }
+
+    .header img {          /* størrelse på logo */
+        width: 30%;
+    }
+
+    #menu {                /* Menu */
+        position: fixed;
+        width: 375px;
+        height: 35px;
+        right: 0;
+        top: 26.7%;
+        margin-top: -2.5em;
+        list-style: none;
+        text-align: center;
+      }
+
+
+      .header li {
+        float: left;
+        margin-top: 7px;
+    }
+  
+    .header li a {
+        font-family: 'segoe UI Historic';
+        font-weight: bolder;
+        margin-right: 25px;
+        padding-left: 38px;
+        font-size: 12px;
+        background-color: #ee030b;
+        color: white;
+        text-decoration: none;
+        
+    }
