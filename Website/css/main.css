@@ -1,0 +1,60 @@
+footer {
+    display: flex;
+    background-color: rgb(235, 235, 235);
+    height: 250px;
+    width: auto;
+    margin: 0;
+}
+
+.card {
+    width: 33%;
+    margin-left: 100px;
+    margin: 30px 0 0 16em;  
+}
+
+
+/* INFO */
+
+
+.info h4{
+    margin-bottom: -10px;
+}
+
+
+/* TOOLS */
+
+
+
+.tools ul {
+    list-style: none;
+}
+
+.tools a {
+    text-decoration: none;
+    color: black;
+}
+
+.tools a:hover {
+    opacity: .8;
+    color: rgb(175, 170, 170);
+    transition: .2s;
+}
+
+
+/* SOCIALS */
+
+
+.socials ul {
+    list-style: none;
+}
+
+.socials a {
+    text-decoration: none;
+    color: black;
+}
+
+.socials a:hover {
+    opacity: .8;
+    color: rgb(175, 170, 170);
+    transition: .2s;
+}
