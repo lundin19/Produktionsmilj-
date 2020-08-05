@@ -14,15 +14,15 @@ h3 {
 .climbing {
     grid-area: climbing;
 }
-.ny {
-    grid-area: ny;
+.skiing  {
+    grid-area: skiing;
 }
 
 .event-container {
     display: grid;
     grid-gap: 10px;
     grid-template-areas: 
-    "biking fishing hiking climbing ny";
+    "biking fishing hiking climbing skiing";
 }
 
 .card {
@@ -57,7 +57,7 @@ h3 {
         grid-template-areas: 
         "biking fishing"
         "climbing climbing"
-        "hiking ny";
+        "hiking skiing";
     }
 }
 @media (max-width: 300px) {
@@ -69,6 +69,6 @@ h3 {
         "fishing"
         "climbing"
         "hiking"
-        "ny";
+        "skiing";
     }
 }
