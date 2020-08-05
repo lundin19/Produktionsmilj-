@@ -13,7 +13,7 @@ body {
 }
 
 #menu {                /* Menu */
-    position: fixed;
+    position: absolute;
     width: 460px;
     height: 60px;
     right: 0;
@@ -90,6 +90,47 @@ body {
         
     }
       
+
+    .center {                 /*  Dette gør at billedet i heroen blir centreret */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 50%;
+      }
+    
+      .offer {                  /*  Det er diven til heroen */
+          position: relative;
+      }
+    
+      .offer img {              /*  Billedet på heroen */
+          width: 95%;
+          height: 800px;
+    
+      }
+    
+      .text-block {             /*  Den røde block på heroen */
+        position: absolute;
+        width: 600px;
+        height: 600px;
+        bottom: 180px;
+        left: 150px;
+        background-color: rgb(241, 237, 237);
+        color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+        -webkit-box-shadow: -12px 10px 0px 0px rgba(238,3,11,1);
+        -moz-box-shadow: -12px 10px 0px 0px rgba(238,3,11,1);
+        box-shadow: -12px 10px 0px 0px rgba(238,3,11,1);
+      }
+    
+      .text-block p {           /*  Paragrahen i den røde boks */
+          font-size: 28px;
+          font-family: 'segoe UI Historic';
+          font-weight: bolder;
+      }
+
       h3 { 
     font-size: calc(1em + 1vw); 
 }
