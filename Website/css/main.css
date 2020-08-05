@@ -51,6 +51,8 @@ body {
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
   .center {                 /*  Dette gør at billedet i heroen blir centreret */
     display: block;
     margin-left: auto;
@@ -153,6 +155,7 @@ body {
 
 
 
+>>>>>>> andreas
   @media screen and (max-width: 601px) {
 
     .header {
@@ -166,16 +169,24 @@ body {
     }
 
     #menu {                /* Menu */
+<<<<<<< HEAD
+        position: fixed;
+=======
 
         position: fixed;
 =======
         position: absolute;
 
+>>>>>>> andreas
         width: 375px;
         height: 35px;
         right: 0;
         top: 26.7%;
         margin-top: -2.5em;
+<<<<<<< HEAD
+        list-style: none;
+        text-align: center;
+=======
 
         list-style: none;
         text-align: center;
@@ -185,6 +196,7 @@ body {
         text-align: center;
         z-index: 10;
 
+>>>>>>> andreas
       }
 
 
@@ -205,6 +217,9 @@ body {
         
     }
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> andreas
       
 
     .center {                 /*  Dette gør at billedet i heroen blir centreret */
@@ -395,6 +410,8 @@ body {
     }
 }
   }
+<<<<<<< HEAD
+=======
 =======
 
     .offer {
@@ -425,3 +442,4 @@ body {
     }   
 }
 >>>>>>> lundin
+>>>>>>> andreas
