@@ -49,110 +49,6 @@ body {
   transition: 0.3s;
   }
 
-<<<<<<< HEAD
-=======
-  .center {                 /*  Dette gør at billedet i heroen blir centreret */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    width: 50%;
-  }
-
-  .offer {                  /*  Det er diven til heroen */
-      position: relative;
-  }
-
-  .offer img {              /*  Billedet på heroen */
-      width: 95%;
-      height: 800px;
-      
-  }
-
-  .text-block {             /*  Den røde block på heroen */
-    position: absolute;
-    width: 600px;
-    height: 600px;
-    bottom: 180px;
-    left: 150px;
-    background-color: rgb(241, 237, 237);
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    -webkit-box-shadow: -12px 10px 0px 0px rgba(238,3,11,1);
-    -moz-box-shadow: -12px 10px 0px 0px rgba(238,3,11,1);
-    box-shadow: -12px 10px 0px 0px rgba(238,3,11,1);
-  }
-
-  .text-block p {           /*  Paragrahen i den røde boks */
-      font-size: 28px;
-      font-family: 'segoe UI Historic';
-      font-weight: bolder;
-  }
-
-
-
-  h3 { 
-      font-size: calc(1em + 1vw);    
-    }       
-
-  .biking {    
-      grid-area: biking;   
-    }   
-
-  .fishing {    
-      grid-area: fishing;   
-    }  
-
-  .hiking {    
-      grid-area: hiking;   
-    }   
-
-  .climbing {    
-      grid-area: climbing;   
-    }   
-
-  .skiing {    
-      grid-area: skiing;   
-    }       
-
-  .event-container {    
-      display: grid;    
-      grid-gap: 10px;    
-      grid-template-areas:     
-      "biking fishing hiking climbing skiing";   
-    }   
-
-  .card {    
-      position: relative;   
-    }   
-
-    
-  .card img {    
-      object-fit: cover;    
-      width: 100%;    
-      max-height: 100%;    
-      opacity: 0.5;       
-    }   
-
-  .card h3 {    
-    z-index: 5;    
-    position: absolute;   
-    top: 40%;    
-    left: 50%;    
-    transform: translate(-50%, -50%);    
-    color: #fff;   
-}   
-
-  .overlay {    
-    width: 100%;    
-    height: 100%;    
-    background-color: rgb(28, 49, 31);   }
-
-
-
->>>>>>> lundin
   @media screen and (max-width: 601px) {
 
     .header {
@@ -166,25 +62,14 @@ body {
     }
 
     #menu {                /* Menu */
-<<<<<<< HEAD
         position: fixed;
-=======
-        position: absolute;
->>>>>>> lundin
         width: 375px;
         height: 35px;
         right: 0;
         top: 26.7%;
         margin-top: -2.5em;
-<<<<<<< HEAD
         list-style: none;
         text-align: center;
-=======
-        margin-bottom: 2%;
-        list-style: none;
-        text-align: center;
-        z-index: 10;
->>>>>>> lundin
       }
 
 
@@ -204,7 +89,6 @@ body {
         text-decoration: none;
         
     }
-<<<<<<< HEAD
       
 
     .center {                 /*  Dette gør at billedet i heroen blir centreret */
@@ -395,33 +279,3 @@ body {
     }
 }
   }
-=======
-
-    .offer {
-        display: none;
-    }
-
-    .event-container {    
-        grid-template-columns: 1fr 1fr;    
-        grid-template-rows: auto auto auto;    
-        grid-template-areas: 
-        "biking fishing"    
-        "climbing climbing"    
-        "hiking skiing";    
-    }
-
-}
-
-@media (max-width: 300px) {    
-    .event-container {    
-        grid-template-columns: 1fr;    
-        grid-template-rows: auto auto auto;    
-        grid-template-areas:     
-        "biking"    
-        "fishing"    
-        "climbing"    
-        "hiking"    
-        "skiing";    
-    }   
-}
->>>>>>> lundin
