@@ -89,10 +89,7 @@ body {
       font-weight: bolder;
   }
 
-  .button {
 
-    
-  }
 
   h3 { 
       font-size: calc(1em + 1vw);    
@@ -137,14 +134,16 @@ body {
     }
 
     #menu {                /* Menu */
-        position: fixed;
+        position: absolute;
         width: 375px;
         height: 35px;
         right: 0;
         top: 26.7%;
         margin-top: -2.5em;
+        margin-bottom: 2%;
         list-style: none;
         text-align: center;
+        z-index: 10;
       }
 
 
@@ -165,8 +164,30 @@ body {
         
     }
 
-    .event-container {    grid-template-columns: 1fr 1fr;    grid-template-rows: auto auto auto;    grid-template-areas:     "biking fishing"    "climbing climbing"    "hiking skiing";    }
+    .offer {
+        display: none;
+    }
+
+    .event-container {    
+        grid-template-columns: 1fr 1fr;    
+        grid-template-rows: auto auto auto;    
+        grid-template-areas: 
+        "biking fishing"    
+        "climbing climbing"    
+        "hiking skiing";    
+    }
 
 }
 
-@media (max-width: 300px) {    .event-container {    grid-template-columns: 1fr;    grid-template-rows: auto auto auto;    grid-template-areas:     "biking"    "fishing"    "climbing"    "hiking"    "skiing";    }   }
+@media (max-width: 300px) {    
+    .event-container {    
+        grid-template-columns: 1fr;    
+        grid-template-rows: auto auto auto;    
+        grid-template-areas:     
+        "biking"    
+        "fishing"    
+        "climbing"    
+        "hiking"    
+        "skiing";    
+    }   
+}
