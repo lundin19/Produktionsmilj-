@@ -108,7 +108,6 @@ body {
 }
 .skiing  {
     grid-area: skiing;
-    position: ;
 }
 
 .event-container {
@@ -182,7 +181,6 @@ body {
 }
 .skiing  {
     grid-area: skiing;
-    position: ;
 }
 
 .event-container {
@@ -239,3 +237,4 @@ body {
         "skiing";
     }
 }
+  }
