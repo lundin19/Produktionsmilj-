@@ -1,3 +1,30 @@
+body {
+    margin: 0%;
+}
 footer {
     background-color: #f1eded;
+    font-family: 'segoe UI Historic';
+}
+
+.sociallogo {
+    max-width: 80px;
+    padding-left: 15px;
+}
+.partners a {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer div {
+    display: inline-block;
+    min-width: 32%;
+    margin-bottom: 20px;
+}
+.links {
+    text-align: center;
+}
+.footlogo {
+    max-width: 150px;
+    margin-bottom: 50px;
 }
