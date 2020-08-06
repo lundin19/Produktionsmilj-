@@ -3,7 +3,6 @@ body {
 }
 footer {
     background-color: #f1eded;
-<<<<<<< HEAD
 }
 #hp  {
     float: left;    
@@ -43,8 +42,6 @@ footer {
      margin: 0 0 0 15px;
      margin-bottom: 20px;
      box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.26);
-=======
-<<<<<<< HEAD
 }
 
 #hp  {
@@ -62,12 +59,12 @@ margin-top: 50px;
      margin: 0 0 0 15px;
      margin-top: 50px;
      margin-right: 50px;
->>>>>>> master
+
     }
     #mountain-bike2{
      margin-top: 90px;
     }
-<<<<<<< HEAD
+
     #box{
     box-sizing: border-box;
     }
@@ -75,7 +72,7 @@ margin-top: 50px;
 
 .sociallogo {
     max-width: 40px;
-=======
+
 
     .input{
     size: 20px;
@@ -98,7 +95,7 @@ margin-top: 50px;
         color: red;
         background: #eff;
     }
-=======
+
     font-family: 'segoe UI Historic';
 }
 
@@ -125,7 +122,3 @@ footer div {
     max-width: 150px;
     margin-bottom: 50px;
 }
-<<<<<<< HEAD
-=======
->>>>>>> be39adb38fc92f73e05042b826bcf8b4fd1aa108
->>>>>>> master
