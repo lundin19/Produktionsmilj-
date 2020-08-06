@@ -31,3 +31,6 @@ height: auto;
 .footlogo {
     max-height: 100%;
 }
+.links a:hover {
+    color: #e12229;
+}
