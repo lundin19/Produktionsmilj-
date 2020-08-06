@@ -3,6 +3,7 @@ body {
 }
 footer {
     background-color: #f1eded;
+<<<<<<< HEAD
 }
 #hp  {
     float: left;    
@@ -42,10 +43,31 @@ footer {
      margin: 0 0 0 15px;
      margin-bottom: 20px;
      box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.26);
+=======
+<<<<<<< HEAD
+}
+
+#hp  {
+    float: left;    
+     margin: 0 0 0 15px;
+     margin-right: 50px;
+     margin-top: 50px;
+    }
+#mountain-bike{
+margin-top: 50px;
+}
+
+#hp2  {
+    float: right;    
+     margin: 0 0 0 15px;
+     margin-top: 50px;
+     margin-right: 50px;
+>>>>>>> master
     }
     #mountain-bike2{
      margin-top: 90px;
     }
+<<<<<<< HEAD
     #box{
     box-sizing: border-box;
     }
@@ -53,6 +75,36 @@ footer {
 
 .sociallogo {
     max-width: 40px;
+=======
+
+    .input{
+    size: 20px;
+    }
+    #button {
+        width: 6em;
+        border: 2px solid black;
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    a {
+        display: block;
+        width: 100%;
+        line-height: 2em;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    a:hover {
+        color: red;
+        background: #eff;
+    }
+=======
+    font-family: 'segoe UI Historic';
+}
+
+.sociallogo {
+    max-width: 80px;
+>>>>>>> master
     padding-left: 15px;
 }
 .partners a {
@@ -73,3 +125,7 @@ footer div {
     max-width: 150px;
     margin-bottom: 50px;
 }
+<<<<<<< HEAD
+=======
+>>>>>>> be39adb38fc92f73e05042b826bcf8b4fd1aa108
+>>>>>>> master
