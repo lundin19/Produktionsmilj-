@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
 }
+footer {
+    background-color: #f1eded;
+}
+.container{
+height: 120vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: space-evenly;
+}
 #hp  {
    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
     }
@@ -37,53 +47,5 @@
        justify-content: space-evenly;
       }
 #hp2  {
-    float: right;    
-     margin: 0 0 0 15px;
-     margin-bottom: 20px;
-     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.26);
+ box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.26);
 }
-
-#hp  {
-    float: left;    
-     margin: 0 0 0 15px;
-     margin-right: 50px;
-     margin-top: 50px;
-    }
-#mountain-bike{
-margin-top: 50px;
-}
-
-#hp2  {
-    float: right;    
-     margin: 0 0 0 15px;
-     margin-top: 50px;
-     margin-right: 50px;
-
-    }
-    #mountain-bike2{
-     margin-top: 90px;
-    }
-
-    #box{
-    box-sizing: border-box;
-    }
-
-#button {
-        width: 6em;
-        border: 2px solid black;
-        background: rgb(255, 255, 255);
-        border-radius: 5px;
-    }
-    a {
-        display: block;
-        width: 100%;
-        line-height: 2em;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 5px;
-    }
-    a:hover {
-        color: red;
-        background: #eff;
-    }
-
