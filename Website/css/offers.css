@@ -72,12 +72,8 @@ margin-top: 50px;
 
 .sociallogo {
     max-width: 40px;
-
-
-    .input{
-    size: 20px;
-    }
-    #button {
+}
+#button {
         width: 6em;
         border: 2px solid black;
         background: rgb(255, 255, 255);
@@ -101,7 +97,7 @@ margin-top: 50px;
 
 .sociallogo {
     max-width: 80px;
->>>>>>> master
+
     padding-left: 15px;
 }
 .partners a {
