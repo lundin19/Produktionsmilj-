@@ -3,7 +3,6 @@ body {
 }
 footer {
     background-color: #f1eded;
-<<<<<<< HEAD
 }
 
 #hp  {
@@ -47,7 +46,7 @@ margin-top: 50px;
         color: red;
         background: #eff;
     }
-=======
+
     font-family: 'segoe UI Historic';
 }
 
@@ -73,4 +72,3 @@ footer div {
     max-width: 150px;
     margin-bottom: 50px;
 }
->>>>>>> be39adb38fc92f73e05042b826bcf8b4fd1aa108
