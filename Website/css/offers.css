@@ -1,38 +1,40 @@
-body {
-    margin: 0%;
+* {
+    margin: 0;
+    padding: 0;
 }
 #hp  {
-    float: left;    
-     margin: 0 0 0 15px;
-     margin-right: 100px;
-     margin-bottom: 100px;
-     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
     }
     .bike {
         background-color: white;
-        width: 1000px;
-        padding: 50px;
-        margin: 20px;
+        width: 50vw;
+        height: 40vh;
         box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
-        margin-left: 80px;
         font-family: 'segoe UI Historic';
         font-size: 17px;
-        margin-top: 40px;
         border-radius: 10px;
+        position: relative;
+        right: 10vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
       }
 
       .bike2 {
         background-color: white;
-        width: 1000px;
-        padding: 50px;
-        margin: 20px;
-        float: right;
+        width: 50vw;
+        height: 40vh;
         box-shadow: 12px 12px 32px rgba(0, 0, 0, 0.26);
-        margin-right: 80px;
         font-family: 'segoe UI Historic';
         font-size: 17px;
-       margin-top: 70px;
        border-radius: 10px;
+       position: relative;
+       left: 10vw;
+       display: flex;
+       flex-direction: row-reverse;
+       align-items: center;
+       justify-content: space-evenly;
       }
 #hp2  {
     float: right;    
