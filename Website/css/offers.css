@@ -1,9 +1,6 @@
 body {
     margin: 0%;
 }
-footer {
-    background-color: #f1eded;
-}
 #hp  {
     float: left;    
      margin: 0 0 0 15px;
@@ -69,10 +66,6 @@ margin-top: 50px;
     box-sizing: border-box;
     }
 
-
-.sociallogo {
-    max-width: 40px;
-}
 #button {
         width: 6em;
         border: 2px solid black;
@@ -92,29 +85,3 @@ margin-top: 50px;
         background: #eff;
     }
 
-    font-family: 'segoe UI Historic';
-}
-
-.sociallogo {
-    max-width: 80px;
-
-    padding-left: 15px;
-}
-.partners a {
-    color: black;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-footer div {
-    display: inline-block;
-    min-width: 32%;
-    margin-bottom: 20px;
-}
-.links {
-    text-align: center;
-}
-.footlogo {
-    max-width: 150px;
-    margin-bottom: 50px;
-}
