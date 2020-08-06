@@ -1,35 +1,41 @@
+body {
+    margin: 0%;
+}
 footer {
     background-color: #f1eded;
 }
-
 #hp  {
     float: left;    
      margin: 0 0 0 15px;
      margin-right: 100px;
      margin-bottom: 100px;
-     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.26);
+     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
     }
     .bike {
         background-color: white;
         width: 1000px;
-        border: 5px solid black;
         padding: 50px;
         margin: 20px;
-        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.26);
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
         margin-left: 80px;
-        
+        font-family: 'segoe UI Historic';
+        font-size: 17px;
+        margin-top: 40px;
+        border-radius: 10px;
       }
 
       .bike2 {
         background-color: white;
         width: 1000px;
-        border: 5px solid black;
         padding: 50px;
         margin: 20px;
         float: right;
-        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.26);
+        box-shadow: 12px 12px 32px rgba(0, 0, 0, 0.26);
         margin-right: 80px;
-        
+        font-family: 'segoe UI Historic';
+        font-size: 17px;
+       padding-bottom: 30px;
+       border-radius: 10px;
       }
 #hp2  {
     float: right;    
@@ -40,3 +46,30 @@ footer {
     #mountain-bike2{
      margin-top: 90px;
     }
+    #box{
+    box-sizing: border-box;
+    }
+
+
+.sociallogo {
+    max-width: 40px;
+    padding-left: 15px;
+}
+.partners a {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer div {
+    display: inline-block;
+    min-width: 32%;
+    margin-bottom: 20px;
+}
+.links {
+    text-align: center;
+}
+.footlogo {
+    max-width: 150px;
+    margin-bottom: 50px;
+}

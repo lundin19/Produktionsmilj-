@@ -48,11 +48,6 @@ body {
   color: black;
   transition: 0.3s;
   }
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
   .center {                 /*  Dette gør at billedet i heroen blir centreret */
     display: block;
     margin-left: auto;
@@ -152,10 +147,6 @@ body {
     height: 100%;    
     background-color: rgb(28, 49, 31);   }
 
-
-
-
->>>>>>> andreas
   @media screen and (max-width: 601px) {
 
     .header {
@@ -169,34 +160,18 @@ body {
     }
 
     #menu {                /* Menu */
-<<<<<<< HEAD
         position: fixed;
-=======
-
-        position: fixed;
-=======
         position: absolute;
-
->>>>>>> andreas
         width: 375px;
         height: 35px;
         right: 0;
         top: 26.7%;
         margin-top: -2.5em;
-<<<<<<< HEAD
-        list-style: none;
-        text-align: center;
-=======
-
-        list-style: none;
-        text-align: center;
-
         margin-bottom: 2%;
         list-style: none;
         text-align: center;
         z-index: 10;
 
->>>>>>> andreas
       }
 
 
@@ -216,10 +191,6 @@ body {
         text-decoration: none;
         
     }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> andreas
       
 
     .center {                 /*  Dette gør at billedet i heroen blir centreret */
@@ -385,35 +356,6 @@ body {
     height: 100%;
     background-color: rgb(28, 49, 31);
 }
-
-
-@media (max-width: 601px) {
-    .event-container {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto auto;
-        grid-template-areas: 
-        "biking fishing"
-        "climbing climbing"
-        "hiking skiing";
-    }
-}
-@media (max-width: 300px) {
-    .event-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
-        grid-template-areas: 
-        "biking"
-        "fishing"
-        "climbing"
-        "hiking"
-        "skiing";
-    }
-}
-  }
-<<<<<<< HEAD
-=======
-=======
-
     .offer {
         display: none;
     }
@@ -429,17 +371,32 @@ body {
 
 }
 
-@media (max-width: 300px) {    
-    .event-container {    
-        grid-template-columns: 1fr;    
-        grid-template-rows: auto auto auto;    
-        grid-template-areas:     
-        "biking"    
-        "fishing"    
-        "climbing"    
-        "hiking"    
-        "skiing";    
-    }   
+
+/* footer */
+footer {
+    background-color: #f1eded;
+    font-family: 'segoe UI Historic';
 }
->>>>>>> lundin
->>>>>>> andreas
+
+.sociallogo {
+    max-width: 40px;
+    padding-left: 15px;
+}
+.partners a {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer div {
+    display: inline-block;
+    min-width: 32%;
+    margin-bottom: 20px;
+}
+.links {
+    text-align: center;
+}
+.footlogo {
+    max-width: 150px;
+    margin-bottom: 50px;
+}
