@@ -1,0 +1,83 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 0px) {
+    .contact-main-section {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+    }
+        .contact-main-section section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 70%;
+            box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+        }
+            .contact-main-section section form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+                padding: 15px 0px;
+            }
+                ::placeholder {
+                    color: black;
+                }
+                .contact-main-section section form header {
+                    text-align: center;
+                    padding: 5px 0px;
+                    margin-bottom: 10px;
+                    border-bottom: 1px solid black;
+                }
+                .contact-main-section section form input,  .contact-main-section section form textarea{
+                    width: 80%;
+                    margin: 5px;
+                    padding: 5px;
+                    background-color: transparent;
+                    border: 1px solid black;
+                }
+                .contact-main-section section form textarea {
+                    height: 20vh;
+                    resize: none;
+                }
+                .contact-main-section section form button {
+                    background-color: transparent;
+                    padding: 5px;
+                    width: 30%;
+                    margin: 5px;
+                    border: 1px solid black;
+                }
+                    .contact-main-section section form button:hover {
+                        border: 1px solid red;
+                        color: red;
+                    }
+            .contact-main-section section img {
+                width: 100%;
+            }
+}
+
+@media screen and (min-width: 1200px) {
+    .contact-main-section {
+        padding: 70px 0px;
+    }
+        .contact-main-section section {
+            flex-direction: row;
+            width: 65%;
+        }
+            .contact-main-section section form header {
+                margin-bottom: 20px;
+                font-size: 1.5em;      
+            }
+            .contact-main-section section form input, .contact-main-section section form textarea {
+                width: 50%;
+                padding: 10px;
+            }
+}
