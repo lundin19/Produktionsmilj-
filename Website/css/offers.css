@@ -68,22 +68,4 @@ margin-top: 50px;
     box-sizing: border-box;
     }
 
-#button {
-        width: 6em;
-        border: 2px solid black;
-        background: rgb(255, 255, 255);
-        border-radius: 5px;
-    }
-    a {
-        display: block;
-        width: 100%;
-        line-height: 2em;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 5px;
-    }
-    a:hover {
-        color: red;
-        background: #eff;
-    }
 
