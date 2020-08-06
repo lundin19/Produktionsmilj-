@@ -1,5 +1,6 @@
-body {
+* {
     margin: 0%;
+    padding: 0%;
 }
 footer {
     background-color: #f1eded;
@@ -48,6 +49,10 @@ margin-top: 50px;
     }
 
     font-family: 'segoe UI Historic';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
 }
 
 .sociallogo {
@@ -61,14 +66,21 @@ margin-top: 50px;
 }
 
 footer div {
-    display: inline-block;
-    min-width: 32%;
-    margin-bottom: 20px;
+height: auto;
+
 }
 .links {
     text-align: center;
 }
 .footlogo {
+<<<<<<< HEAD
     max-width: 150px;
     margin-bottom: 50px;
 }
+=======
+    max-height: 100%;
+}
+.links a:hover {
+    color: #eb1820;
+}
+>>>>>>> f4e817e0fa2c2a8f5bb736f7b563a46552546325

@@ -36,6 +36,7 @@
                     padding: 5px 0px;
                     margin-bottom: 10px;
                     border-bottom: 1px solid black;
+                    font-family: 'segoe UI Historic';
                 }
                 .contact-main-section section form input,  .contact-main-section section form textarea{
                     width: 80%;
